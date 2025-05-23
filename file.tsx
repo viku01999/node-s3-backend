@@ -1,0 +1,17 @@
+# Optional: App Port
+PORT=3101
+
+# AWS S3 Configuration
+# AWS_ACCESS_KEY_ID = 
+# AWS_SECRET_ACCESS_KEY = 
+# AWS_REGION = 
+# BUCKET_NAME =
+
+
+# JWT configuration
+# JWT_SECRET = c4adc54d4a64c4AXCC6zc646fs46g4s4fd64g4f6ds4g46fs4d64g6sfa96
+
+
+# exp
+#http://192.168.29.13:3101/api/files/generateDownloadUrls?folder=suhora/11c370d7-81ff-458f-b754-c66738f4c8fb
+#http://192.168.29.13:3101/api/files/generateJwtTokenDownloadUrl?folder=suhora/11c370d7-81ff-458f-b754-c66738f4c8fb
