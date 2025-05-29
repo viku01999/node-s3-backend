@@ -1,3 +1,6 @@
+# convert this file into .env
+
+
 # Optional: App Port
 PORT=3101
 
