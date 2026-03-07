@@ -1,11 +1,13 @@
 import express from "express";
 import { checkConnectionOfS3BucketByCredentials, getDownloadCompleteFolderSvc, getDownloadNestedCompleteFolderSvc, upload, uploadFileOnAwsS3 } from "../controllers/fileController";
 import { getPresignedFolderUrls, getPresignedFolderUrlsUsignJwtToken } from "../controllers/linkGenerateUrlController";
+import { uploadHeavy, uploadHeavyStreamFileOnAwsS3 } from "../controllers/uploadHeavyFileStreaming";
 
 
 const router = express.Router();
 
 router.post("/uploadFilesOnAWSS3", upload, uploadFileOnAwsS3)
+router.post("/uploadHeavyStreamFileOnAwsS3", uploadHeavy, uploadHeavyStreamFileOnAwsS3)
 router.post("/checkConnectionOfS3BucketByCredentials", checkConnectionOfS3BucketByCredentials)
 router.get("/downloadCompleteFolder", getDownloadCompleteFolderSvc)
 router.get("/downloadAllFoldersFile", getDownloadNestedCompleteFolderSvc)
