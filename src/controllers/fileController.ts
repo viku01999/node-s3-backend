@@ -474,7 +474,7 @@ The resulting zip will contain:
 
 /**
  * concurrent download
- * http://192.168.29.13:3101/api/files/downloadAllFoldersFile?folder=suhora/11c370d7-81ff-458f-b754-c66738f4c8fb
+ * http://192.168.29.13:3101/api/files/downloadAllFoldersFile?folder=foldername/11c370d7-81ff-458f-b754-c66738f4c8fb
  */
 export const getDownloadNestedCompleteFolderSvc = async (
     req: Request<{}, {}, {}, { folder: string }>,
