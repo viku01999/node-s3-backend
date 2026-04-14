@@ -16,5 +16,5 @@ PORT=3101
 
 
 # exp
-#http://192.168.29.13:3101/api/files/generateDownloadUrls?folder=suhora/11c370d7-81ff-458f-b754-c66738f4c8fb
-#http://192.168.29.13:3101/api/files/generateJwtTokenDownloadUrl?folder=suhora/11c370d7-81ff-458f-b754-c66738f4c8fb
+#http://192.168.29.13:3101/api/files/generateDownloadUrls?folder=vikas/11c370d7-81ff-458f-b754-c66738f4c8fb
+#http://192.168.29.13:3101/api/files/generateJwtTokenDownloadUrl?folder=vikas/11c370d7-81ff-458f-b754-c66738f4c8fb

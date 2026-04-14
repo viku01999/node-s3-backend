@@ -33,14 +33,14 @@ export const startGeosatJob = async (): Promise<string> => {
     const sftp = new Client();
 
     const config = {
-        host: "secureftp.geosat.space",
+        host: "vdsvcdSZ",
         port: 2022,
-        username: "suhora",
-        password: "m3I3rw#kZ7qM6!&"
+        username: "suhgsdfgfdsora",
+        password: "bdsfbsvdgsdf"
     };
 
     const remoteFile =
-        "/14d3fb50-a962-4232-9767-977a3b39e2ca/52b14b26-d06f-4b00-ac99-87f85961e464/DE2_PSH_L1C_000000_20251224T041827_20251224T041831_DE2_62451_E0E9.zip";
+        "/14d3fb50-a99e2ca/52b14b26-d0961e464/DE2_PSH_L1C_000000_20251224T04181_DE2_62451_E0E9.zip";
 
     console.log(remoteFile, "============>remoteFile")
     const localFile = path.join(tempDir, `${jobId}_${path.basename(remoteFile)}`);
